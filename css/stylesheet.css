@@ -1,0 +1,35 @@
+#wrapper                       {width:800px; height:auto; margin:0 auto}
+
+.logo                           {margin-left:100px; margin-top:20px; background-image:url(css/images/bni_logo.png); background-repeat: no-repeat; width:auto; height:auto;}
+#header{
+    width:100%; 
+    background: url(css/yourimage);
+}
+
+.minicontainer                  {padding-left:130px; margin-top:150px; width:800px; height:auto; position:fixed;}
+
+.title                          {background-image:url(css/images/title.png); width:255px; height:51px;}
+
+#content                        {width:300px; height:auto; padding-left:5px; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; line-height:130%;}
+
+/* BACKGROUND IMAGE DO NOT TOUCH */
+
+
+html, body {
+  height: 0%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color:#8cc643
+}
+
+#full-screen-background-image {
+  z-index: -999;
+  min-height: 30%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}

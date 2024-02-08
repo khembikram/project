@@ -1,0 +1,128 @@
+* {
+    margin: auto;
+    padding: 0 auto;
+  }
+  
+  #content-left {
+    height: 300px;
+    width: 400px;
+    margin-left: 0px;
+    margin-top: 15px;
+    position: absolute;
+  }
+  
+  img {
+    margin-top: 5px;
+    border-radius: 100px;
+    position: absolute;
+    cursor: pointer;
+    /* Add the following line for best fit */
+    object-fit: cover;
+    /* Specify the maximum size of the image within the container */
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  p {
+    height: 300px;
+    position: relative;
+    text-align: justify;
+    margin-left: 150px;
+    margin-top: 10px;
+    padding: 8px;
+  }
+  
+  #content-center {
+    height: 300px;
+    width: 390px;
+    margin-left: 400px;
+    margin-top: 15px;
+    position: absolute;
+  }
+  
+  #content-center p {
+    text-align: justify;
+    position: relative;
+  }
+  
+  #content-right {
+    height: 300px;
+    width: 300px;
+    margin-top: 15px;
+    float: right;
+  }
+  
+  #content-right p {
+    text-align: justify;
+    position: relative;
+  }
+  
+  #content-right img {
+    border-radius: 100px;
+    /* Add the following line for best fit */
+    object-fit: cover;
+    /* Specify the maximum size of the image within the container */
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  #middle {
+    height: 300px;
+    width: 1150px;
+    clear: both;
+    margin-top: 35px;
+  }
+  
+  #middle-left {
+    height: 300px;
+    width: 400px;
+    position: absolute;
+  }
+  
+  #middle-center {
+    height: 300px;
+    width: 400px;
+    margin-left: 400px;
+    margin-top: 0px;
+    position: absolute;
+  }
+  
+  #middle-right {
+    height: 300px;
+    width: 400px;
+    margin-left: 800px;
+  }
+  
+  /***************************************************************/
+  
+  #down {
+    width: 1150px;
+    height: 300px;
+    clear: both;
+    position: relative;
+  }
+  
+  #down-left {
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    margin-top: 35px;
+    float: left;
+  }
+  
+  #down-center {
+    height: 300px;
+    width: 400px;
+    margin-left: 400px;
+    margin-top: 0px;
+    position: absolute;
+    clear: both;
+  }
+  
+  #down-right {
+    height: 300px;
+    width: 400px;
+    float: left;
+    margin-left: 800px;
+  }
+  

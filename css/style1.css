@@ -1,0 +1,32 @@
+*{margin:0;padding:0}
+body{font-family:Tahoma, Geneva, sans-serif;background:#efefef;font-size:15px}
+#wrapper{width:960px;margin:0 auto;background:#FFF;}
+.logo img{margin:0 auto}
+
+#body_wrap{overflow:hidden;clear:both;background:#f9f9f9}
+#left_bar{width:200px;background:#e13e2b;float:left;height:500px}
+#left_bar ul{padding:3px 3px 3px 10px}
+#left_bar li{list-style:none;padding:2px 0}
+#left_bar a{text-decoration:none;color:#FFF}
+#left_bar a:hover{color:#FF6}
+
+#content{width:700px;float:left;padding:5px}
+#content h1{text-align:center}
+#content a{text-decoration:none;color:#e13e2b}
+#content table{font-size:13px;margin:0 auto;border:1px solid #CCC}
+#content td{border:1px solid #CCC;padding:3px}
+#content th{border:1px solid #CCC;padding:3px}
+#content input{padding:3px;margin:3px;float:left}
+#content form{width:400px;margin:0 auto;}
+
+
+.login_form{width:500px;margin:0 auto}
+.login_form input{padding:3px;margin:3px}
+.login_form label{width:100px}
+
+#footer{background:#ddd;text-align:center;font-size:13px;padding:5px;color:#666}
+#footer a{text-decoration:none;color:#e13e2b}
+
+
+
+label{ clear:left; display:block; margin-top:3px; width:150px; float:left;}

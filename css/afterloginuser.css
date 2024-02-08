@@ -1,0 +1,93 @@
+*{
+margin:auto;
+padding:0 auto;
+}
+
+#wrapper
+{
+height:1000px;
+width:1200px;
+
+}
+#header
+{
+
+height:260px;
+margin-top:10px;
+width:1150px;
+border-radius:10px;
+background-image:url(../image/college1.jpg);
+}
+.welcome
+{
+margin:10px;
+text-indent:5px;
+}
+.active
+{
+
+background:#FF5F00;
+height:35px;
+width:180px;
+border-radius:5px;
+font-size:18px;
+text-decoration:blink;
+}
+#nav{width:1050px;
+height:38px;
+border-radius:10px;
+background-image:url(../image/blue-gradient-background-css-7110.jpg);
+clear:both;
+margin-top:5px;
+
+position:relative;
+}
+ul {
+	position: top center;
+    font-family:Arial, Helvetica, sans-serif;
+	position: relative;
+    font-size: 16px;
+    margin: 0;
+	
+
+    list-style: none;
+	
+}
+ul li {
+    display: block;
+    position: relative;
+    float: left;
+}
+li ul {
+    display: none;
+	
+}
+ul li a {
+text-indent:2px;
+    display: block;
+    text-decoration: none;
+ color:black;
+ font-style:bold;
+    padding: 9px;
+
+	position: relative;
+    margin-left: 5px;
+    white-space: nowrap;
+	
+}
+ul li a:hover {
+background:#FFFF8A;
+color:#6C0061;
+}
+li:hover ul {
+    display: block;
+    position: absolute;
+}
+li:hover li {
+    float: none;
+    font-size: 14px;
+}
+li:hover a { background:#FFFF8A;}
+li:hover li a:hover {
+    background-image:url(../image/blue-gradient-background-css-7110.jpg);
+}

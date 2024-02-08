@@ -1,0 +1,29 @@
+*{
+margin:auto;
+padding:0 auto;
+}
+h1{
+margin-top:40px;
+font-family:Arial, Helvetica, sans-serif;
+font-style:bolder;
+margin-left:195px;
+font-size:30px;
+
+}
+p
+{
+height:fit-content;
+width:fit-content;
+font-size:20px;
+position:relative;
+margin-left:35px;
+margin-top:35px;
+text-align:justify;
+
+}
+
+
+#content
+{
+background-color:#FF1FAA;
+}
